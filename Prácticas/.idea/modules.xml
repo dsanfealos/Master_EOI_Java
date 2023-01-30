@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClaseSystem/ClaseSystem.iml" filepath="$PROJECT_DIR$/ClaseSystem/ClaseSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClasesWrapper/ClasesWrapper.iml" filepath="$PROJECT_DIR$/ClasesWrapper/ClasesWrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DNI/DNI.iml" filepath="$PROJECT_DIR$/DNI/DNI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio2/Ejercicio2.iml" filepath="$PROJECT_DIR$/Ejercicio2/Ejercicio2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Estructuras de control/Estructuras de control.iml" filepath="$PROJECT_DIR$/Estructuras de control/Estructuras de control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Experimentos/Experimentos.iml" filepath="$PROJECT_DIR$/Experimentos/Experimentos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Introduccion/Introduccion.iml" filepath="$PROJECT_DIR$/Introduccion/Introduccion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java básico.iml" filepath="$PROJECT_DIR$/.idea/Java básico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/La Clase String/La Clase String.iml" filepath="$PROJECT_DIR$/La Clase String/La Clase String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Metodos/Metodos.iml" filepath="$PROJECT_DIR$/Metodos/Metodos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operadores/Operadores.iml" filepath="$PROJECT_DIR$/Operadores/Operadores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ValorReferencia/ValorReferencia.iml" filepath="$PROJECT_DIR$/ValorReferencia/ValorReferencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Variables/Variables.iml" filepath="$PROJECT_DIR$/Variables/Variables.iml" />
+    </modules>
+  </component>
+</project>
