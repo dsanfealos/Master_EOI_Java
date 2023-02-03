@@ -31,7 +31,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Sanfe/Documents/GitHub/Master_EOI_Java/Prácticas/POO1"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -39,7 +40,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploCoche1">
+  <component name="RunManager" selected="Application.EjemploFiguraGeometrica">
     <configuration name="EjemploCoche" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploCoche" />
       <module name="POO1" />
@@ -54,8 +55,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemploFiguraGeometrica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjemploFiguraGeometrica" />
+      <module name="POO1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploFiguraGeometrica" />
         <item itemvalue="Application.EjemploCoche1" />
         <item itemvalue="Application.EjemploCoche" />
       </list>

@@ -15,6 +15,40 @@ public class Coche1 {
         static String distintivo = "E";
         private String numeroSerie;
 
+
+        //Constructores
+    public Coche1(){
+        this.km = 4;
+    }
+
+    public Coche1(String marca){
+        this();  //Esto hace llamar al método con parámetros "()". Se pone en la primera línea.
+        this.marca = marca;
+    }
+
+    public Coche1(String marca, String modelo){  //Para llamar otro método podemos usar this(String), o this(String,String) y demás.
+        this(marca);
+        this.modelo = modelo;
+    }
+
+    public Coche1(String marca, String modelo, String color, String carroceria, float potencia, float cilindrada, String combustible, float deposito) {
+        //generar constructor
+
+        this.marca = marca;
+        this.modelo = modelo;
+        this.color = color;
+        this.carroceria = carroceria;
+        this.potencia = potencia;
+        this.cilindrada = cilindrada;
+        this.combustible = combustible;
+        this.deposito = deposito;
+    }
+
+    public Coche1(String marca, String modelo, String color, String carroceria, float potencia, float cilindrada, String combustible, float deposito, String numeroSerie) {
+        this(marca,modelo,color,carroceria,potencia,cilindrada,combustible,deposito);
+        this.numeroSerie = numeroSerie;
+    }
+
     //Getter y Setter (encapsulado). A mano o con click derecho > Generate > Getter and Setter > atributo.
 
 
@@ -110,4 +144,24 @@ public class Coche1 {
         return repostado / distancia * 100;
     }
 
+    //toString
+    //generar
+    //muestra todos los datos
+
+    @Override
+    public String toString() {
+        return "Coche1{" +
+                "marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", color='" + color + '\'' +
+                ", carroceria='" + carroceria + '\'' +
+                ", potencia=" + potencia +
+                ", cilindrada=" + cilindrada +
+                ", combustible='" + combustible + '\'' +
+                ", rpm=" + rpm +
+                ", km=" + km +
+                ", deposito=" + deposito +
+                ", numeroSerie='" + numeroSerie + '\'' +
+                '}';
+    }
 }
