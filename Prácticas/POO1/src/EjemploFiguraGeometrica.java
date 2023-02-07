@@ -7,6 +7,8 @@ public class EjemploFiguraGeometrica {
         FiguraGeometrica circulo1 = new FiguraGeometrica("Círculo",0,1.5f);
         System.out.println("circulo1.info() = " + circulo1.info());
         System.out.println("circulo1.perimetro() = " + circulo1.perimetro());
+        System.out.println("-------------------------");
+
 
 
     }

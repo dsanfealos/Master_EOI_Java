@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="652665e9-b382-4f54-b1fa-47564c92dc1d" name="Changes" comment="" />
+    <list default="true" id="2ee3f419-89d5-4b3b-be8f-93475dde2774" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -23,7 +24,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2LBH15ZgMsCbMXYs3d3VY3ZLgP8" />
+  <component name="ProjectId" id="2LPCLqgY4iWmJVpSFG22eGPXad6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,49 +36,28 @@
     "last_opened_file_path": "D:/Escritorio/Curso Java/JIRA/Github/Master_EOI_Java/Prácticas/POO2"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.EjemploFiguraGeometrica">
-    <configuration name="EjemploCoche" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploCoche" />
-      <module name="POO1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjemploCoche1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploCoche1" />
-      <module name="POO1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjemploFiguraGeometrica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploFiguraGeometrica" />
-      <module name="POO1" />
+  <component name="RunManager">
+    <configuration name="Factura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Factura" />
+      <module name="Facturacion" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjemploFiguraGeometrica" />
-        <item itemvalue="Application.EjemploCoche1" />
-        <item itemvalue="Application.EjemploCoche" />
+        <item itemvalue="Application.Factura" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="652665e9-b382-4f54-b1fa-47564c92dc1d" name="Changes" comment="" />
-      <created>1675337339435</created>
+      <changelist id="2ee3f419-89d5-4b3b-be8f-93475dde2774" name="Changes" comment="" />
+      <created>1675763279311</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1675337339435</updated>
+      <updated>1675763279311</updated>
     </task>
     <servers />
   </component>
