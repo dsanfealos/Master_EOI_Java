@@ -33,6 +33,6 @@ public class LineaFactura {
 
     @Override
     public String toString() {
-        return "Unidades: " + unidades + " || Producto: " + producto + " || Precio: " + precio + " || Precio total: " + precioT;
+        return "Unidades: " + unidades + " || Producto: " + producto + " || Precio: " + precio + "\t || Precio total: " + precioT;
     }
 }
