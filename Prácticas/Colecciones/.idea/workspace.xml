@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07386010-b347-47f1-b039-7f5e01a65a61" name="Changes" comment="" />
+    <list default="true" id="dd3c2468-7b41-437d-89d4-0a0118de1fb9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +23,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2L849jPjFrxIW747tOeLB7ue5iZ" />
+  <component name="ProjectId" id="2LY05Wz0ACecJm6ludCEdDOeI8a" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,47 +32,31 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Escritorio/Curso Java/JIRA/Github/Master_EOI_Java/Prácticas/ClaseArrays"
+    "last_opened_file_path": "D:/Escritorio/Curso Java/JIRA/Github/Master_EOI_Java/Prácticas/Facturacion"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EjercicioClaveAleatoria">
-    <configuration name="EjercicioClaveAleatoria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjercicioClaveAleatoria" />
-      <module name="ClaseMath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaUtilRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaUtilRandom" />
-      <module name="ClaseMath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MetodoRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MetodoRandom" />
-      <module name="ClaseMath" />
+  <component name="RunManager">
+    <configuration name="EjemploArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjemploArrayList" />
+      <module name="Colecciones" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjercicioClaveAleatoria" />
-        <item itemvalue="Application.JavaUtilRandom" />
-        <item itemvalue="Application.MetodoRandom" />
+        <item itemvalue="Application.EjemploArrayList" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="07386010-b347-47f1-b039-7f5e01a65a61" name="Changes" comment="" />
-      <created>1675239228464</created>
+      <changelist id="dd3c2468-7b41-437d-89d4-0a0118de1fb9" name="Changes" comment="" />
+      <created>1676032526371</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1675239228464</updated>
+      <updated>1676032526371</updated>
     </task>
     <servers />
   </component>

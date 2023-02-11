@@ -85,8 +85,8 @@ public class Factura {
                         producto = Productos.TECLADO;  //Le ponemos el valor más barato para que no moleste, pero deberíamos hacer un bloque de respuesta de errores
                 }
                 //Conseguimos los atributos del producto
-                LineaFactura linea = new LineaFactura(unidades, producto.getDescripcion(), producto.getPrecio());
-                lineasFactura.add(linea);
+                LineaFactura linea = new LineaFactura(unidades, producto.getDescripcion(), producto.getPrecio());  //Creamos una matriz que tenga como valores unidades, descripción de producto y precio de producto
+                lineasFactura.add(linea);  //Cada lineasFactura que hagamos, se añadirá a la matriz creada justo antes (que es para guardar todas)
                 //lineasFactura[indice] = linea; //Array estático
                 //indice++;
                 //System.out.println(linea.toString());
