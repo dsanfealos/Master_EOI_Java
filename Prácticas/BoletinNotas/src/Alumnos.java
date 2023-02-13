@@ -17,24 +17,7 @@ public enum Alumnos {
     String contacto;
     String grupo;
 
-    //getter
 
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public String getDireccion() {
-        return direccion;
-    }
-
-    public String getContacto() {
-        return contacto;
-    }
-
-    public String getGrupo() {
-        return grupo;
-    }
 
     //Constructor
     Alumnos(String nombre, String direccion, String contacto, String grupo) {

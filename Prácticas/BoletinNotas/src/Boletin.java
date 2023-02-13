@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -7,10 +6,10 @@ import java.util.Scanner;
 public class Boletin {
     public static void main(String[] args) {
 
-        //Entrada Datos Alumno
-        System.out.println("Introduce nombre completo del Alumno: ");
+        //Entrada de Datos Alumno
+        System.out.println("Introduzca nombre completo del alumno\n");
         String nomCompl = introduceDato("Nombre Alumno");
-        Alumnos alumno;
+        Alumnos alumno = null;
         //Para que coincida el nombre introducido con los datos de los alumnos del sistema
         switch (nomCompl){
             case "Daniel Sanfélix":
@@ -44,8 +43,9 @@ public class Boletin {
                 alumno = Alumnos.CARLOS_VIVAS;
                 break;
             default:
-                System.out.println("El alumno no está en el sistema.");
-                alumno = Alumnos.DANIEL_SANFELIX; //TODO Sistema de errores
+                System.err.println("El alumno no está en el sistema.");
+                main(args);
+                System.exit(0);
         }
 
         //Seleccionar nota y asignatura
@@ -82,7 +82,7 @@ public class Boletin {
             } else {
                 //Asignatura
                 String selecAsign = introduceDato("Seleccione la asignatura:\n1 - Java básico\n2 - POO\n3 - Java Intermedio\n4 - BBDD\n5 - Soft Skills\n6 - Empleo\n7 - JIRA\n8 - HTML\n9 - Spring\n10 - Proyecto");
-                Asignaturas asignatura;
+                Asignaturas asignatura = null;
                 switch (selecAsign) {
                     case "1":
                         asignatura = Asignaturas.JAVA_BASICO;
@@ -115,12 +115,11 @@ public class Boletin {
                         asignatura = Asignaturas.PROYECTO;
                         break;
                     default:
-                        asignatura = Asignaturas.JIRA;
-                        System.out.println("Error. Seleccione una asignatura del 1 al 10.");  //TODO Sistema de errores
+                        System.err.println("Error. Seleccione una asignatura del 1 al 10.");
+                        main(args);
+                        System.exit(0);
                 }
-                //Comprobación
-                System.out.println(asignatura);
-                System.out.println("--------------------");
+
                 //Crear líneas de notas
                 LineaAsignatura lineaNota = new LineaAsignatura(asignatura.getCodigo(),asignatura.getAsignatura(),nota,calificacion);
                 lineaAsignaturas.add(lineaNota);
@@ -129,16 +128,19 @@ public class Boletin {
         }
 
         //Impresión
+        //Nombre centro
+        System.out.println("\n\nIES RAMÓN Y CAJAL\nC/ Santos , 7-4, Valencia\n");
         //Título y Nombre Alumno
         System.out.println("--------------------");
         System.out.println("BOLETÍN DE CALIFICACIONES TRIMESTRAL\n\n");
         System.out.println(alumno);  //no hace falta escribir el "toString"
-        System.out.println(" ");
 
         //Fecha
-        System.out.println("Fecha: " + fechaHoy());
+        System.out.println("\nValencia, " + fechaHoy());
+
         System.out.println("--------------------");
         //Notas
+        System.out.println("Código\t\t" + "Asignatura\t\t\t" + "Nota\t" + "Calificación");
         float sumaNotas = 0;
         for (LineaAsignatura lin:lineaAsignaturas){
             if (lin != null) {
@@ -148,7 +150,7 @@ public class Boletin {
         }
         //Nota y calificación medias
         float notaMedia = sumaNotas/lineaAsignaturas.size();
-        System.out.println("Nota media: " + notaMedia);
+        System.out.println("\nNota media: " + notaMedia);
         int result = (int) notaMedia;
         String califMedia;
         switch (result){
@@ -173,7 +175,6 @@ public class Boletin {
             default:
                 califMedia = "Suspenso";
         }
-        System.out.println(" ");
         System.out.println("Calificación media:" + califMedia);
     }
     //Entrada Scanner

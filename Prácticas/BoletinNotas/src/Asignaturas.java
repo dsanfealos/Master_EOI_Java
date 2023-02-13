@@ -15,7 +15,6 @@ public enum Asignaturas {
     String asignatura;
 
     //Getter
-
     public long getCodigo() {
         return codigo;
     }

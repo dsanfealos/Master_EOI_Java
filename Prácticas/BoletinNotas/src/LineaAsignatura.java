@@ -6,20 +6,10 @@ public class LineaAsignatura {
     int nota;
     String calificacion;
 
-    //Setter y getter
-
+    //Getter
     public int getNota() {
         return nota;
     }
-
-    public String getCalificacion() {
-        return calificacion;
-    }
-
-    public void setCalificacion(String calificacion) {
-        this.calificacion = calificacion;
-    }
-
 
     //Constructor
 
@@ -29,13 +19,14 @@ public class LineaAsignatura {
         this.asignatura = asignatura;
         this.nota = nota;
         this.calificacion = calificacion;
+
     }
 
     @Override
     public String toString() {
-        return "Codigo: " + codigo +
-                "\t\tAsignatura: " + asignatura +
-                "\t\tNota: " + nota +
-                "\t\tCalificación: " + calificacion;
+        return  codigo + "\t\t" +
+                 asignatura + "\t\t" +
+                 nota + "\t\t" +
+                 calificacion;
     }
 }
