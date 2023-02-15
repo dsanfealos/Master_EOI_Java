@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class EjemploHashSet {
     public static void main(String[] args) {
@@ -20,6 +22,7 @@ public class EjemploHashSet {
         //Eliminar
         numeros.remove(23); //Seleciono el valor (no el índice) de lo que quiero borrar
         recorrer(numeros);
+        recorreIterator(numeros);
 
         //Buscar
         System.out.println("numeros.contains(23) = " + numeros.contains(23));
@@ -39,5 +42,12 @@ public class EjemploHashSet {
             System.out.println("n = " + n);
         }
         System.out.println("--------------------");
+    }
+    public static void recorreIterator(HashSet<Integer> num){
+        Iterator<Integer> iter = num.iterator();
+        while (iter.hasNext()){
+            System.out.println("iter.next() = " + iter.next());
+
+        }
     }
 }

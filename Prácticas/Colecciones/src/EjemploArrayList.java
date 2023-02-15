@@ -1,6 +1,7 @@
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 
 public class EjemploArrayList {
     public static void main(String[] args) {
@@ -47,6 +48,7 @@ public class EjemploArrayList {
         //Ordenar ArrayList
         Collections.sort(numeros);
         recorrer(numeros);
+        recorreIterator(numeros);
 
         //Si un elemento está contenido en un ArrayList
         System.out.println("numeros.contains(7) = " + numeros.contains(7));  //Contiene el elemento x?
@@ -56,6 +58,8 @@ public class EjemploArrayList {
         //Eliminar todo
         numeros.clear();
         recorrer(numeros);
+
+
     }
 
     public static void recorrer(ArrayList<Integer> num){  //Static porque pretendo utilizarlo dentro de un método statico main
@@ -64,4 +68,13 @@ public class EjemploArrayList {
         }
         System.out.println("-------------------------");
     }
+
+    public static void recorreIterator(ArrayList<Integer> num){
+        Iterator<Integer> iter = num.iterator();
+        while (iter.hasNext()){
+            System.out.println("iter.next() = " + iter.next());
+
+        }
+    }
+
 }

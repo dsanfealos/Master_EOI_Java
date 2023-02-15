@@ -32,17 +32,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Escritorio/Curso Java/JIRA/Github/Master_EOI_Java/Prácticas/BoletinNotas"
+    "last_opened_file_path": "C:/Users/Sanfe/Documents/GitHub/Master_EOI_Java/Prácticas/BoletinNotas"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EjemploHashMap">
-    <configuration name="EjemploArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploArrayList" />
-      <module name="Colecciones" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.EjemploHashSet">
     <configuration name="EjemploHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploHashMap" />
       <module name="Colecciones" />
@@ -57,11 +50,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemploIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjemploIterator" />
+      <module name="Colecciones" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjemploLinkedList" />
+      <module name="Colecciones" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjercicioHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjercicioHashMap" />
+      <module name="Colecciones" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjemploHashMap" />
         <item itemvalue="Application.EjemploHashSet" />
-        <item itemvalue="Application.EjemploArrayList" />
+        <item itemvalue="Application.EjemploLinkedList" />
+        <item itemvalue="Application.EjemploIterator" />
+        <item itemvalue="Application.EjercicioHashMap" />
+        <item itemvalue="Application.EjemploHashMap" />
       </list>
     </recent_temporary>
   </component>

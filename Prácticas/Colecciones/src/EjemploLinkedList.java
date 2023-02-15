@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class EjemploLinkedList {
@@ -38,11 +40,20 @@ public class EjemploLinkedList {
         System.out.println("numeros.lastIndexOf(5) = " + numeros.lastIndexOf(5));
         System.out.println("numeros.contains(23) = " + numeros.contains(23));
 
+        recorreIterator(numeros);
+
     }
 
     public static void recorrer(LinkedList<Integer> num){
         for (int i = 0; i <num.size(); i++){
             System.out.println("num.get(" + i + ") = " + num.get(i));
+        }
+    }
+    public static void recorreIterator(LinkedList<Integer> num){
+        Iterator<Integer> iter = num.iterator();
+        while (iter.hasNext()){
+            System.out.println("iter.next() = " + iter.next());
+
         }
     }
 }

@@ -12,10 +12,10 @@ public enum Alumnos {
     MURIEL_PENASCO("Muriel Peñasco","Plaza Caballeros, 5-6","muriel@gmail.es","1ºJAVA"),
     CARLOS_VIVAS("Carlos Vivas","C/ Velázquez, 28-9","carlos@gmail.es","1ºJAVA");
 
-    String nombre;
-    String direccion;
-    String contacto;
-    String grupo;
+    final String nombre;
+    final String direccion;
+    final String contacto;
+    final String grupo;
 
 
 

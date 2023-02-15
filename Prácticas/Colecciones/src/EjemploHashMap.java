@@ -34,6 +34,8 @@ public class EjemploHashMap {
 
         //Borrar una clave determinada
         listin.remove(609609609);
+
+
     }
 
     public static void recorrer(HashMap<Integer,String> mapa){
