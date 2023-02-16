@@ -55,7 +55,7 @@ public class EjemploArrayList {
         System.out.println("numeros.contains(7) = " + numeros.contains(57));
         System.out.println("-------------------------");
 
-        //Eliminar todo
+        //Eliminar el contenido completo
         numeros.clear();
         recorrer(numeros);
 

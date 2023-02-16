@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f36e6f-2470-447b-9285-da6d7c6c7284" name="Changes" comment="" />
+    <list default="true" id="4909df09-d373-4133-bfb2-e26133e4d665" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +13,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -24,7 +23,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2LbQpySdLtyelHjFPOje1ZyBhMB" />
+  <component name="ProjectId" id="2LlnXOeakA6dt7WklqlFh6HnyZJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,32 +31,31 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Escritorio/Curso Java/JIRA/Github/Master_EOI_Java/Prácticas/Colecciones"
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Boletin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Boletin" />
-      <module name="BoletinNotas" />
+    <configuration name="EjemploRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjemploRegex" />
+      <module name="RegEx" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Boletin" />
+        <item itemvalue="Application.EjemploRegex" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f9f36e6f-2470-447b-9285-da6d7c6c7284" name="Changes" comment="" />
-      <created>1676137490643</created>
+      <changelist id="4909df09-d373-4133-bfb2-e26133e4d665" name="Changes" comment="" />
+      <created>1676454580350</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1676137490643</updated>
+      <updated>1676454580350</updated>
     </task>
     <servers />
   </component>

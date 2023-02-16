@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd3c2468-7b41-437d-89d4-0a0118de1fb9" name="Changes" comment="" />
+    <list default="true" id="927fd20a-4b16-4a0c-b147-9c45759266b0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -23,7 +24,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2LY05Wz0ACecJm6ludCEdDOeI8a" />
+  <component name="ProjectId" id="2LoSMMNO6pvajKGuUAtwt2Gs56q" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,63 +33,68 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Escritorio/Curso Java/JIRA/Github/Master_EOI_Java/Prácticas/ExpresionesLambda"
+    "last_opened_file_path": "D:/Escritorio/Curso Java/JIRA/Github/Master_EOI_Java/Prácticas/ClaseFile/carpeta1"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EjemploHashSet">
-    <configuration name="EjemploHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploHashMap" />
-      <module name="Colecciones" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Escritorio\Curso Java\JIRA\Github\Master_EOI_Java\Prácticas\ClaseFile\carpeta1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LeerArchivo">
+    <configuration name="BorrarCarpeta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BorrarCarpeta" />
+      <module name="ClaseFile" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploHashSet" />
-      <module name="Colecciones" />
+    <configuration name="EjercicioCSV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjercicioCSV" />
+      <module name="ClaseFile" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploIterator" />
-      <module name="Colecciones" />
+    <configuration name="EjercicioListarCarpeta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjercicioListarCarpeta" />
+      <module name="ClaseFile" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploLinkedList" />
-      <module name="Colecciones" />
+    <configuration name="LeerArchivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeerArchivo" />
+      <module name="ClaseFile" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjercicioHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjercicioHashMap" />
-      <module name="Colecciones" />
+    <configuration name="ListarContenidoCarpeta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListarContenidoCarpeta" />
+      <module name="ClaseFile" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjemploHashSet" />
-        <item itemvalue="Application.EjemploLinkedList" />
-        <item itemvalue="Application.EjemploIterator" />
-        <item itemvalue="Application.EjercicioHashMap" />
-        <item itemvalue="Application.EjemploHashMap" />
+        <item itemvalue="Application.LeerArchivo" />
+        <item itemvalue="Application.EjercicioCSV" />
+        <item itemvalue="Application.EjercicioListarCarpeta" />
+        <item itemvalue="Application.ListarContenidoCarpeta" />
+        <item itemvalue="Application.BorrarCarpeta" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dd3c2468-7b41-437d-89d4-0a0118de1fb9" name="Changes" comment="" />
-      <created>1676032526371</created>
+      <changelist id="927fd20a-4b16-4a0c-b147-9c45759266b0" name="Changes" comment="" />
+      <created>1676535893138</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1676032526371</updated>
+      <updated>1676535893138</updated>
     </task>
     <servers />
   </component>
