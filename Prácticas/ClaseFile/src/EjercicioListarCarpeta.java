@@ -23,7 +23,7 @@ public class EjercicioListarCarpeta {
             System.out.println(Colores.cambiarColor(nombre.getName(),Colores.GREEN));  //Para cambiar el color a un texto
             recorrer(nombre);
             }else{
-                System.out.println("--" + nombre.getName() + " -- Tamaño (Bytes): " + nombre.length());
+                System.out.println(Colores.cambiarColor("--" + nombre.getName() + " -- Tamaño (Bytes): " + nombre.length(), Colores.BLUE));
             }
         }
         nivel--;

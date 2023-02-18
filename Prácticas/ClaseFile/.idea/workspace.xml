@@ -29,19 +29,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Escritorio/Curso Java/JIRA/Github/Master_EOI_Java/Prácticas/ClaseFile/carpeta1"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Escritorio/Curso Java/JIRA/Github/Master_EOI_Java/Prácticas/ClaseFile/carpeta1&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Escritorio\Curso Java\JIRA\Github\Master_EOI_Java\Prácticas\ClaseFile\carpeta1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeerArchivo">
+  <component name="RunManager" selected="Application.EjercicioListarCarpeta">
     <configuration name="BorrarCarpeta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BorrarCarpeta" />
       <module name="ClaseFile" />
@@ -79,9 +79,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjercicioListarCarpeta" />
         <item itemvalue="Application.LeerArchivo" />
         <item itemvalue="Application.EjercicioCSV" />
-        <item itemvalue="Application.EjercicioListarCarpeta" />
         <item itemvalue="Application.ListarContenidoCarpeta" />
         <item itemvalue="Application.BorrarCarpeta" />
       </list>
