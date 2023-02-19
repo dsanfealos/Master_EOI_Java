@@ -13,11 +13,10 @@ public class Alumno {
 
     @Override
     public String toString() {
-        return "Alumno{" +
-                "nombre='" + nombre + '\'' +
-                ", apellidos='" + apellidos + '\'' +
-                ", email='" + email + '\'' +
-                ", movil='" + movil + '\'' +
-                '}';
+        return "Alumno: \t" +
+                "nombre= " + nombre  +
+                ", apellidos= " + apellidos +
+                ", email= " + email  +
+                ", movil= " + movil;
     }
 }
