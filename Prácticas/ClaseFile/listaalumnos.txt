@@ -1,5 +1,0 @@
-
-Pepe	;Pérez	;pepe@eoi.es	;678909099
-Juan	;García	;juan@eoi.es	;678909098
-María	;Juárez	;maria@eoi.es	;678909097
-Alicia	;Martín	;alicia@eoi.es	;678909094

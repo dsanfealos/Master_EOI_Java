@@ -29,15 +29,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Sanfe/Documents/GitHub/Master_EOI_Java/Prácticas/ClaseFile"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Escritorio/Curso Java/JIRA/Github/Master_EOI_Java/Prácticas/ClaseFile&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Escritorio\Curso Java\JIRA\Github\Master_EOI_Java\Prácticas\ClaseFile" />
       <recent name="D:\Escritorio\Curso Java\JIRA\Github\Master_EOI_Java\Prácticas\ClaseFile\carpeta1" />
     </key>
   </component>

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aee68e6-826a-49e7-98dd-dd5d0f450984" name="Changes" comment="" />
+    <list default="true" id="15eebbf6-3d78-4cc9-ad89-ce111603062f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +13,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -24,7 +23,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Liw2L0wnWtKUnIwLliWCKVFlau" />
+  <component name="ProjectId" id="2LzrD3xcfwz1vohQ0qbz0kyA39A" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,51 +32,44 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Escritorio/Curso Java/JIRA/Github/Master_EOI_Java/Prácticas/ExpresionesLambda"
+    "last_opened_file_path": "D:/Escritorio/Curso Java/JIRA/Github/Master_EOI_Java/Prácticas/ClaseFile"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ConAbstracta" />
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Escritorio\Curso Java\JIRA\Github\Master_EOI_Java\Prácticas\APIStream" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoConAbstracta">
-    <configuration name="DemoConAbstracta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConAbstracta.DemoConAbstracta" />
-      <module name="Iterfaces" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ConAbstracta.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.EjercicioStream">
+    <configuration name="EjemploStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjemploStream" />
+      <module name="APIStream" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoInterfaz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DemoInterfaz" />
-      <module name="Iterfaces" />
+    <configuration name="EjercicioStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjercicioStream" />
+      <module name="APIStream" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoConAbstracta" />
-        <item itemvalue="Application.DemoInterfaz" />
+        <item itemvalue="Application.EjercicioStream" />
+        <item itemvalue="Application.EjemploStream" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4aee68e6-826a-49e7-98dd-dd5d0f450984" name="Changes" comment="" />
-      <created>1676367005866</created>
+      <changelist id="15eebbf6-3d78-4cc9-ad89-ce111603062f" name="Changes" comment="" />
+      <created>1676884640240</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1676367005866</updated>
+      <updated>1676884640240</updated>
     </task>
     <servers />
   </component>
