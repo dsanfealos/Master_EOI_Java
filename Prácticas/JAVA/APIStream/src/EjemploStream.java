@@ -9,6 +9,65 @@ import java.util.ArrayList;
 public class EjemploStream {
     public static void main(String[] args) {
 
+        // Crear Stream desde un lista de datos
+        Stream<String> nombres = Stream.of("María","Jorge","Pepe","Ana");
+        //nombres.forEach(n -> System.out.println(n));
+        nombres.forEach(System.out::println);
+        System.out.println("----------------------------------------");
+
+        // Crear Stream desde Matriz
+        String[] arraynom = {"María","Jorge","Pepe","Ana"};
+        Stream<String> nombres1 = Arrays.stream(arraynom);
+        nombres1.forEach(System.out::println);
+        //... una vez operado (ejecutado) el stream no hay datos
+        // nombres1.forEach(System.out::println);
+        System.out.println("----------------------------------------");
+
+        // Crear Stream "contruyendolo" con Stream builder
+        Stream<String> nombres2 = Stream.<String>builder()
+                .add("María")
+                .add("Jorge")
+                .add("Pepe")
+                .add("Ana")
+                .build();
+        nombres2.forEach(System.out::println);
+        System.out.println("----------------------------------------");
+
+        // Crear Stream desde una lista
+        ArrayList<String> arrnombres = new ArrayList<>();
+        arrnombres.add("María");
+        arrnombres.add("Jorge");
+        arrnombres.add("Pepe");
+        arrnombres.add("Ana");
+
+//        Stream<String> nombres3 = arrnombres.stream();
+//        nombres3.forEach(System.out::println);
+        arrnombres.stream().forEach(System.out::println);
+        System.out.println("----------------------------------------");
+
+        // Operador map y peek
+        Stream<String> nombres4 = Stream.of("María","Jorge","Pepe","Ana");
+        nombres4//.peek(nom -> System.out.println("nom antes = " + nom))
+                .map(nom -> nom.toUpperCase())
+                //.peek(nom -> System.out.println("nom despues = " + nom))
+                .map(nom -> nom.toLowerCase())
+                .forEach(System.out::println);
+        System.out.println("----------------------------------------");
+
+        // Convertir en coleccion
+        Stream<String> nombres5 = arrnombres.stream();
+        List<String> lista = nombres5.map(nom -> nom.toUpperCase())
+                .map(nom -> nom.toLowerCase())
+                .collect(Collectors.toList());
+
+        lista.forEach(System.out::println);
+        System.out.println("----------------------------------------");
+
+        // Convertir en objetos Usuario
+        Stream<String> nombres6 = arrnombres.stream();
+        nombres6.map(nombre -> new Usuario(nombre,null,null,null))
+                .peek(us -> System.out.println("us.getNombre() = " + us.getNombre()))
+                .forEach(us -> System.out.println(us.toString()));
 
         //Filter
         Stream<String> nombres7 = Stream.of("María", "Jorge", "Marta", "Ana");
