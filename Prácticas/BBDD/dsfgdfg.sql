@@ -1,0 +1,1 @@
+SELECT id, nombre, telefono, marca FROM usuarios WHERE marca NOT LIKE "%@yahoo%" AND nombre LIKE "B%" 

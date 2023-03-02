@@ -1,0 +1,2 @@
+SELECT id, email FROM usuarios WHERE instr(email,"@gmail") > 0  /*Si no aparece nada, devuelve 0. Si aparece, indica todos los emails que contienen @gmail*/
+/*SELECT id, email FROM usuarios WHERE email LIKE "%@gmail%" */ /* Otra forma */

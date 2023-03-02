@@ -1,0 +1,3 @@
+/*SELECT nDIEmp, nomEMP, empleados.codDepto, nombreDpto FROM empleados JOIN departamentos ON empleados.codDepto = departamentos.codDepto*/
+/*SELECT nDIEmp, nomEMP, e.codDepto, nombreDpto FROM empleados e JOIN departamentos d ON e.codDepto = d.codDepto*/  /*Cuenta como Inner JOIN. Muestra los codDepto que sean iguales en ambas tablas*/
+SELECT nDIEmp, nomEMP, e.codDepto, nombreDpto FROM empleados e LEFT JOIN departamentos d ON e.codDepto = d.codDepto ORDER BY e.nomEmp /*LEFT JOIN incluye toda la tabla A y sólo los que cumplan la condición en la tabla B*/
