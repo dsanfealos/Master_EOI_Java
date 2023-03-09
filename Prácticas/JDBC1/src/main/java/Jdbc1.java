@@ -33,7 +33,9 @@ public class Jdbc1 {
             ResultSet rs2;
             int count1 = 0;
             int count2 = 0;
+            //int ultFila = 0;  //Forma alternativa al contador
             while (rs.next()){  //Cojo una oficina
+                //ultFila = rs.getRow();
                 //Poner el código, la ciudad y el teléfono
                 String oficina ="Oficina: " + rs.getString(1) + " | " + rs.getString("ciudad") + "| " + rs.getString("telefono");
                 System.out.println(oficina);
@@ -65,24 +67,33 @@ public class Jdbc1 {
             }
 
             //Poner el nro de oficinas y nro de empleados totales
+            //System.out.println("\nNúmero total de oficinas: " + ultFila + " oficinas");
             System.out.println("\nNúmero total de oficinas: " + count1 + " oficinas");
+
+//            qry = "SELECT COUNT(*) FROM empleado";        //forma alternativa al count
+//            rs = stnt.executeQuery(qry);
+//            rs.next();
+//            System.out.println("Hay " + rs.getInt(1) + " empleados");
             System.out.println("Número total de empleados: " + count2 + " empleados");
 
             //-------------Listado de clientes y su representante de ventas
             //Datos cliente: codigo_cliente, nombre_cliente, teléfono (unido por codigo_empleado_rep_ventas)
             //Datos empleado: codigo_empleado, nombre, apellido1, apellido2
-            qry = "SELECT * FROM empleado";
-            rs = stnt.executeQuery(qry);
-            String qry3 = "SELECT * FROM cliente WHERE codigo_empleado_rep_ventas = ?";
-            PreparedStatement stnt3 = conex.prepareStatement(qry3);
-            stnt3.setString(1,rs.getString(1));
-            ResultSet rs3 = stnt3.executeQuery();
+            String qry3 = "SELECT cli.nombre_cliente, emp.nombre, emp.apellido1 FROM cliente cli LEFT JOIN empleado emp ON cli.codigo_empleado_rep_ventas = emp.codigo_empleado";
+            Statement stnt3 = conex.createStatement();
+            ResultSet rs3 = stnt3.executeQuery(qry3);
 
-            while (rs3.next()){
-                String ventas = rs3.getString(1) + " | " + rs3.getString(2) + " | " + rs3.getString(3);
-                System.out.println(" * " + ventas);
-                System.out.println();
-
+            while(rs3.next()){
+                String cli = "Cliente: " + rs3.getString(1);
+                String rep = "\nRepresentante: " + rs3.getString(2) + " " + rs3.getString(3);
+                System.out.println(cli + (rs3.getString(2) == null ? "\nRepresentante: Aún no tiene representante" : rep));
+//                if ((rs3.getString(2) == null) || (rs3.getString(3) == null))
+//                {
+//                    System.out.println(cli + "\nRepresentante: Aún no tiene representante");
+//                }else {
+//                    System.out.println(cli + rep);
+//                }
+                System.out.println("----------------------------------------");
             }
             rs3.next();
             stnt3.close();
