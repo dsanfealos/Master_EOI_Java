@@ -21,12 +21,12 @@ public class DemoApplication {
 
 	@RequestMapping("/hola")	//La / es cuando no tenga nada escrito
 	String hola(){
-		return "Hola Mundo";
+		return "¡Hola Mundo!";
 	}
 
 	@RequestMapping("/mimedicacion")	//La / es cuando no tenga nada escrito
 	String mimedicacion(){
-		return "Tómate las pastillas!";
+		return "¡Tómate las pastillas!";
 	}
 
 
