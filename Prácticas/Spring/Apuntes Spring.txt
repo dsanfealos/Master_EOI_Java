@@ -1,0 +1,6 @@
+Spring:	
+	Framework que abarca tanto front-end como back-end y que consiste en conectar diferentes objetos de la aplicación, 
+como el jdbc conecta el código con las bases de datos.
+
+SpringBoot:
+	Plantilla de Spring para inicializar el Spring de algo concreto (Seguridad, Correo, etc).

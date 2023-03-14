@@ -1,4 +1,4 @@
-package java;
+package curso;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.condition.*;

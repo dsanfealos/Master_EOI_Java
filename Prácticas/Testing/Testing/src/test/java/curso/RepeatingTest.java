@@ -1,7 +1,7 @@
-package java;
+package curso;
 
-import curso.java.exceptions.InvalidAmountException;
-import curso.java.exceptions.NegativeBalanceException;
+import curso.exceptions.InvalidAmountException;
+import curso.exceptions.NegativeBalanceException;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.RepeatedTest;

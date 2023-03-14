@@ -1,4 +1,4 @@
-package java;
+package curso;
 
 public class EmailChecker {
 

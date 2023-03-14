@@ -1,7 +1,7 @@
-package java;
+package curso;
 
-import curso.java.exceptions.InvalidAmountException;
-import curso.java.exceptions.NegativeBalanceException;
+import curso.exceptions.InvalidAmountException;
+import curso.exceptions.NegativeBalanceException;
 
 public class CuentaBancaria {
     int balance;
