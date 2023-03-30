@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejemplo Bootstrap</title>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .fondo{
+      opacity:0.60;
+      background-color: #ff0000;
+      color: #00ff00;
+    }
+    .imagenHarald{
+        height:150px;
+        width:150px;
+        overflow:hidden;
+    }
+  </style>
+</head>
+<body>
+
+<header class="container-fluid g-0 overflow-hidden" style="height: 400px">  <!--Se puede poner style="height: 400px" para delimitar el tamaño de la cabecera -->
+  <h1 style="position:absolute; left:300px; top:150px; color:blue;">Titular</h1>
+  <img src="assets/img/fondo.jpg" width="100%" alt="No se encuentra la imagen">
+  <nav></nav>
+</header>
+
+<section class="container">
+  <div class="container">
+    <div class="row g-0 bg-warning">
+       <div class="col-6" style="padding-right:8px">
+            <div class="p-3 border text-bg-secondary">Custom column padding</div>
+       </div>
+       <div class="col-6" style="padding-right:8px">
+            <div class="p-3 border text-bg-secondary">Custom column padding</div>
+       </div>
+        <div class="col-6" style="padding-right:8px">
+            <div class="p-3 border text-bg-secondary">Custom column padding</div>
+       </div>
+       <div class="col-6" style="padding-right:8px">
+            <div class="p-3 border text-bg-secondary">Custom column padding</div>
+       </div>
+    </div>
+  </div>
+</section>
+
+<section class="container justify-content-center">
+  <img src="assets/img/foca.jpg" width="25%" class="img-thumbnail float-start" alt="No se encuentra la imagen">
+  <img src="assets/img/foca.jpg" width="25%" class="img-thumbnail float-end" alt="No se encuentra la imagen">
+</section>
+
+<section class="container">
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-6">
+            <div class="imagenHarald mx-auto">  <!-- El mx-auto es para centrar la imagen respecto al eje x -->
+                <img src="assets/img/foca.jpg" height="100%" alt="No se encuentra la imagen">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+            <div class="imagenHarald mx-auto">
+                <img src="assets/img/foca.jpg" height="150px" alt="No se encuentra la imagen">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+            <div class="imagenHarald mx-auto">
+                <img src="assets/img/foca.jpg" height="150px" alt="No se encuentra la imagen">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+            <div class="imagenHarald mx-auto">
+                <img src="assets/img/foca.jpg" height="150px" alt="No se encuentra la imagen">
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="container-fluid">
+  pie
+</footer>
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

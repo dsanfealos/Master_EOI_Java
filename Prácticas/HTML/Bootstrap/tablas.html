@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ejemplo Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <!--   <link href="assets/css/bootstrap.min.css" rel="stylesheet">-->
+</head>
+<body>
+
+<header class="container-fluid">
+  <h1>Titular</h1>
+  <nav></nav>
+</header>
+
+<section class="container">
+  <table class="table table-success"> <!-- el success es para el color -->
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr class="table-active"> <!--El active es para que parezca que he clickado--->
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2" class="table-active">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+    </tbody>
+  </table>
+</section>
+<br><br><br>
+<section class="container">
+  <table class="table table-bordered border-success"> <!-- Con bordes (borderless para el contrario)-->
+    <thead>
+    <tr style="border: 3px solid">  <!-- Grosor de borde-->
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td style="border: 3px solid">Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+    </tbody>
+  </table>
+</section>
+
+<br><br><br>
+<section class="container">
+  <table class="table align-middle">
+    <thead class="table-primary">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="align-bottom">
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>sdthrsthrsdafhsadfhsadfhsadfhsadf sdhfsdafsadfsadfsadf asdfsadfasdfsadfsadf sadfasdfsfddffff thjxnfbgkdsjnhkdsjndskghndskfj dfhgbfdhgbdf dfhgbfdhgbafjghbfjad ahfdgbdjfghbadfjghadbfjh</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td class="align-top">Jacob</td>
+      <td>Thornton</td>
+      <td>sdthrsthrsdafhsadfhsadfhsadfhsadf sdhfsdafsadfsadfsadf asdfsadfasdfsadfsadf sadfasdfsfddffff thjxnfbgkdsjnhkdsjndskghndskfj dfhgbfdhgbdf dfhgbfdhgbafjghbfjad ahfdgbdjfghbadfjghadbfjh</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>sdthrsthrsdafhsadfhsadfhsadfhsadf sdhfsdafsadfsadfsadf asdfsadfasdfsadfsadf sadfasdfsfddffff thjxnfbgkdsjnhkdsjndskghndskfj dfhgbfdhgbdf dfhgbfdhgbafjghbfjad ahfdgbdjfghbadfjghadbfjh</td>
+    </tr>
+    </tbody>
+    <tfoot class="table-secondary">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+    </tfoot>
+    <caption>Lista de alumnos con twitter</caption>
+  </table>
+</section>
+
+
+
+<footer class="container-fluid">
+  pie
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+<!--<script src="assets/js/bootstrap.bundle.min.js" ></script>-->
+</body>
+</html>

@@ -1,0 +1,21 @@
+p{
+    color:#ff0000; text-align:center;
+}
+#capitulo_3 {
+    color: green;
+    text-align:center;
+}
+.miclase{
+    color:blue;
+    text-align: right;
+    font-size: 12px;
+}
+#midiv{
+    border-color: blue;
+}
+
+/* p es para los párrafos -->
+<!-- El # es para identificadores, afectando sólo a los identificados como tal -->
+<!-- .miclase es para una clase en concreto que yo he asignado a lo largo del código-->*/
+
+/*Mejor no usar el style inline*/

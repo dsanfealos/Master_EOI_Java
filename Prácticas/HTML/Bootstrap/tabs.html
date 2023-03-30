@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Ejemplo Bootstrap</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+  <!--   <link href="assets/css/bootstrap.min.css" rel="stylesheet">-->
+
+</head>
+
+<body>
+
+<header class="container-fluid">
+  <h1>Titular</h1>
+
+  <ul class="nav nav-tabs">  <!--Usar flex-column para barra vertical. Los tabs podrían ser útiles para las secciones de comentarios del proyecto-->
+    <li class="nav-item">
+      <a id="nav-uno-tab" class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-uno" role="tab" aria-controls="nav-uno" aria-selected="true" href="#">Uno</a>
+    </li>
+    <li class="nav-item">
+      <a id="nav-dos-tab" class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-dos" role="tab" aria-controls="nav-dos" aria-selected="true" href="#">Dos</a>
+    </li>
+    <li class="nav-item">
+      <a id="nav-tres-tab" class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-tres" role="tab" aria-controls="nav-tres" aria-selected="true" href="#">Tres</a>
+    </li>
+    <li class="nav-item">
+      <a id="nav-cuatro-tab" class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-cuatro" role="tab" aria-controls="nav-cuatro" aria-selected="true" href="#">Cuatro</a>
+    </li>
+  </ul>
+
+  <div class="tab-content" id="nav-tabContent"> <!--Aquí es donde se mete el contenido de cada pestaña-->
+    <div class="tab-pane fade show active" id="nav-uno" role="tabpanel" aria-labelledby="nav-uno-tab" tabindex="0">Contenido1</div>
+    <div class="tab-pane fade" id="nav-dos" role="tabpanel" aria-labelledby="nav-dos-tab" tabindex="0">Contenido2</div>
+    <div class="tab-pane fade" id="nav-tres" role="tabpanel" aria-labelledby="nav-tres-tab" tabindex="0">Contenido3</div>
+    <div class="tab-pane fade" id="nav-cuatro" role="tabpanel" aria-labelledby="nav-cuatro-tab" tabindex="0">Contenido4</div>
+  </div>
+
+</header>
+
+
+
+
+
+<section class="container">
+
+  Contenido
+
+</section>
+
+
+
+
+
+<footer class="container-fluid">
+
+  pie
+
+</footer>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+
+        crossorigin="anonymous"></script>
+</body>
+</html>
